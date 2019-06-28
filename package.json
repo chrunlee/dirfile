@@ -1,0 +1,24 @@
+{
+  "name": "dirfile",
+  "version": "1.0.0",
+  "description": "获取文件夹内所有的文件。支持递归获取、异步或同步、过滤、返回信息处理。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrunlee/dirfile.git"
+  },
+  "keywords": [
+    "递归获取文件",
+    "同步/异步",
+    "过滤"
+  ],
+  "author": "chrunlee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrunlee/dirfile/issues"
+  },
+  "homepage": "https://github.com/chrunlee/dirfile#readme"
+}

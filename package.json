@@ -1,6 +1,6 @@
 {
   "name": "dirfile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "获取文件夹内所有的文件。支持递归获取、异步或同步、过滤、返回信息处理。",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/chrunlee/dirfile/issues"
   },
-  "homepage": "https://github.com/chrunlee/dirfile#readme"
+  "homepage": "https://github.com/chrunlee/dirfile#readme",
+  "dependencies": {
+    "async": "^3.1.0"
+  }
 }

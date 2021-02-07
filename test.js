@@ -1,7 +1,7 @@
 let dirfile = require('./index');
 let path = require('path');
 
-const dirpath = 'd:/ader/ader';
+const dirpath = 'i:/aaa';
 const async = false;
 const deep = true;
 const extname = 'sql';
@@ -17,3 +17,14 @@ let fileArr = dirfile(dirpath,async,deep,function(filePath,stat){
 });
 
 console.log(fileArr.length);
+
+console.log('--------------------')
+
+dirfile(dirpath).then(list => {
+    console.log(list);
+});
+
+(async function () { 
+    let list = await dirfile(dirpath);
+    console.log(list);
+})();

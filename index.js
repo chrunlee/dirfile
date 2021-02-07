@@ -57,7 +57,7 @@ function getListAsync(filePath,isDeep,pushFn,infoFn,cb){
                 var info = infoFn ? infoFn(filePath,stat) : {filePath : filePath};
                 rst.push(info);
             }else if(!pushFn){
-                rst.push(infoFn ? infoFn(realPath,stat) : {filePath : realPath});
+                rst.push(infoFn ? infoFn(filePath,stat) : {filePath : filePath});
             }
             cb(null,rst);
         }
